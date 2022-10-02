@@ -1,1 +1,1 @@
-# sign-up-form
+Sign-Up Form project for The Odin Project Intermediate HTML and CSS Course from the JavaScript track.
