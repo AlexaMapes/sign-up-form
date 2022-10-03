@@ -3,10 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sign-Up Sheet</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="left">
+        <div class="title"><img class="icon" src="./Assets/sakura.png">Flowers</div>
+        <div class="credits">
+            <div>Photo by <a href="https://unsplash.com/@saracervera">Sara Cervera</a> on <a href="https://unsplash.com/photos/47urRDhCphA">Unsplash</a></div>
+            <div>Icon by <a href="https://www.flaticon.com/free-icon/sakura_2396481?term=flower&page=1&position=7&page=1&position=7&related_id=2396481&origin=tag">Flaticon</a></div>
+        </div>
+        <div class="background"><img class="background-img" src="./Assets/flower-petals.jpg" alt="Flower petals"></div>
+    </div>
+    <div class="right">
+        <div class="right-top">This is not a real online service! You know you need something like this in your life
+            to help you realize your deepest dreams. Sign up <em>now</em> to get started.<br>You <em>know</em> you want to.
+        </div>
+        <div class="right-mid">
+            <p class="form-title">Let's do this!</p>
+            <form action="/form-page" method="post">
+                <div class="form-left">
+                    <label for="firstName">First Name:</label>
+                    <input type="text" id="firstName" name="user_first_name">
+                    <label for="mail">E-mail:</label>
+                    <input type="email" id="mail" name="user_email">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="user_pw">
+                </div>
+                <div class="form-right">
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" id="lastName" name="user_last_name">
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="user_phone">
+                    <label for="confirm_password">Confirm Password:</label>
+                    <input type="password" id="confirm_password" name="user_confirm_password">
+                </div>
+            </form>
+        </div>
+        <div class="right-bottom">
+            <button class="submit-button" type="submit">Create Account</button>
+            <p class="login">Already have an account? <a class="login-link" href="https://www.google.com">Log in</a></p>
+        </div>
+    </div>
 </body>
 </html>
